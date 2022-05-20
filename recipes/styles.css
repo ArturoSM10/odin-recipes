@@ -1,0 +1,86 @@
+* {
+    font-family: 'Caveat', cursive;
+}
+body {
+    background-image: url(../images/recipesbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0.50);
+    width: 80%;
+    margin: auto;
+}
+
+#main-menu {
+    font-size: 24px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#main-menu li {
+    list-style: none;
+}
+
+a {
+    color:black;
+}
+
+a:hover {
+    color: rgb(129, 129, 129);
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+table {
+    margin: auto;
+    font-size: 24px;
+}
+
+img {
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+}
+caption {
+    padding: 0;
+    margin: 0;
+}
+
+#Information h2{
+    font-size: 40px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: lighter;
+    margin: 0;
+    margin-left: 50px;
+}
+
+p, li {
+    font-size: 24px;
+    margin-left: 65px;
+    margin-right: 65px;
+    text-align: justify;
+}
+#footer p{
+    text-align: center;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.creditsp {
+    padding-bottom: 15px;
+    margin-top: 5px;
+}
