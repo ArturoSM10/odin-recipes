@@ -3,15 +3,16 @@
 }
 body {
     background-image: url(../images/recipesbg.jpg);
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 main{
     background-color: rgba(255, 255, 255, 0.50);
-    width: 80%;
+    box-shadow: 10px 10px 25px black;
     margin: auto;
+    width: 80%;
 }
 
 #main-menu {
@@ -46,8 +47,8 @@ table {
 }
 
 img {
-    border-style: solid;
     border-color: black;
+    border-style: solid;
     border-width: 4px;
 }
 caption {
@@ -75,12 +76,27 @@ p, li {
     text-align: justify;
 }
 #footer p{
-    text-align: center;
+    background-color: rgb(204, 135, 4);
     font-size: 24px;
+    margin: -24px auto auto auto;
+    text-align: center;
     text-decoration: underline;
+    width: 80%;
 }
 
 .creditsp {
-    padding-bottom: 15px;
     margin-top: 5px;
+    padding-bottom: 15px;
 }
+
+#imagewh {
+    width: 500px;
+    height: auto;
+}
+
+hr {
+    border: 4px dashed black;
+    border-top: 0;
+    margin: auto;
+    width: 90%;
+    }
