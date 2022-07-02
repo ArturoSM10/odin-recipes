@@ -6,16 +6,28 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 0;
+}
+
+section ul, 
+section ol {
+    font-size: 24px;
+    padding-left: 90px ;
+    padding-right: 60px;
+    text-align: justify;
 }
 
 main{
+    float: left;
     background-color: rgba(255, 255, 255, 0.50);
     box-shadow: 10px 10px 25px black;
-    margin: auto;
+    margin-left: 17.5vw;
     width: 80%;
 }
 
 #main-menu {
+    margin: 21vh 0 0 1vw;
+    padding: 0;
     font-size: 24px;
 }
 
@@ -30,10 +42,14 @@ h1{
 }
 
 a {
-    color:black;
+    color: #efefe3;
+}
+#links a {
+    color: black;
 }
 
-a:hover {
+a:hover,
+#links a:hover  {
     color: rgb(129, 129, 129);
 }
 
@@ -69,7 +85,7 @@ h2{
     margin-left: 50px;
 }
 
-p, li {
+p {
     font-size: 24px;
     margin-left: 65px;
     margin-right: 65px;
@@ -78,7 +94,8 @@ p, li {
 #footer p{
     background-color: rgb(204, 135, 4);
     font-size: 24px;
-    margin: -24px auto auto auto;
+    margin: 0 auto auto 17.5vw;
+    padding: 15px 0 10px;
     text-align: center;
     text-decoration: underline;
     width: 80%;
@@ -99,4 +116,18 @@ hr {
     border-top: 0;
     margin: auto;
     width: 90%;
-    }
+}
+body > aside {
+    float: left;
+    width: 15%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #edc180ee;
+    position: fixed;
+    box-shadow: 1px 1px 4px #efefe3;
+}
+#clearfix {
+    clear: both;
+    float: none;
+}
