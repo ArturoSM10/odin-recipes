@@ -37,12 +37,12 @@ ul {
 
 li {
     font-family: 'Caveat', cursive;
-    font-size: 24px;
     margin-bottom: 25px;
     list-style: none;
 }
 
 a {
+    Font-size: 1.8rem;
     color: #b38c50;
 }
 *, a:hover {
