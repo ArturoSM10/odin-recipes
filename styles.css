@@ -4,6 +4,10 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0;
+    max-width: 1366px;
+    max-height: 768px;
+    min-width: 800px;
+    min-height: 450px;
 }
 
 .prueba1 {
